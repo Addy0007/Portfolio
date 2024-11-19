@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Aditya</span><br>Sah From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Aditya Sah, a passionate software engineer with a robust foundation in computer science and hands-on experience in developing innovative tech solutions. With a B.Tech in Computer Science Engineering from the University of Petroleum and Energy Studies, I bring proficiency in languages like Java, Python, and SQL, combined with a commitment to user-centered design principles. 
+                
+                    <br><br>I’ve tackled diverse projects, from an Automated Parking System to a Smart Irrigation System, leveraging machine learning and IoT to solve real-world problems effectively. Currently, I’m expanding my skill set into DevOps to strengthen my ability to build, deploy, and maintain scalable, reliable applications.
+                
+                    <br><br>Beyond the tech space, I love trekking, playing chess, and spending time on the football field. My background in gymnastics and involvement in team sports has instilled a disciplined approach to problem-solving and a knack for collaboration.
+                </p>
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java Development</span><br>Experienced in building scalable applications and backend systems.</li>
+                        <li><span>Machine Learning & IoT</span><br>Implemented predictive analysis and IoT integration in projects like Smart Irrigation and Smart Lock systems.</li>
+                        <li><span>Web Development</span><br>Developing a responsive web applications using HTML, CSS, JavaScript, and Spring Boot for the back end.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                      
+                        <li><span>2024 - 2024</span><br>Internship at IBM.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>B.Tech CSE from UPES</li>
+                        <li><span>2021</span><br>PCM - 12 th from Bhartiyam International School</li>
+                        <li><span>2019</span><br>!0th ICSE from St. Joseph's College</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills
+        <div class="services-list">
+            <div>
+                
+                    <i class="fas fa-code"></i>
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>SQL</li>
+                        <li>CSS, HTML, JavaScript</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Operating Systems</li>
+                        <li>Data Communication and Computer Networks</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fas fa-users"></i>
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Leadership</li>
+                        <li>Problem-Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Critical Thinking</li>
+                        <li>Attention to Detail</li>
+                        <li>Adaptability</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fas fa-tools"></i>
+                    <h2>Tools & Platforms</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>MySQL</li>
+                        <li>Linux</li>
+                        <li>RESTful APIs</li>
+                        <li>Arduino</li>
+                        <li>Raspberry Pi</li>
+                        <li>Tableau</li>
+                        <li>Hadoop</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Frameworks & Libraries</h2>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>Keras</li>
+                        <li>Swing</li>
+                    </ul>
+                 </div>
+                 <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Relevant Coursework</h2>
+                    <ul>
+                        <li>IoT</li>
+                        <li>AI/ML</li>
+                        <li>DevOps</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                 </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ets.png">
+                <div class="layer">
+                    <h3>Employee Tracking Software</h3>
+                    <p>This Software will allow you to monitor the Employees.</p>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-github"></i> <!-- GitHub icon will be here -->
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/parking.png">
+                <div class="layer">
+                    <h3>Smart Parking System</h3>
+                    <p>Allows you to park and safely track your car with real-time billing.</p>
+                    <a href="https://github.com/Addy0007/SmartParkingSystem" target="_blank">
+                        <i class="fab fa-github"></i> <!-- GitHub icon will be here -->
+                    </a>
+                </div>
+            </div>
+            
+            
+            <div class="work">
+                <img src="images/irrigation.png">
+                <div class="layer">
+                    <h3>Smart Irrigation</h3>
+                    <p>Saves water by predicting rain in the future.</p>
+                    <a href="https://github.com/Addy0007/Predictive_Irrigation/tree/main" target="_blank">
+                        <i class="fab fa-github"></i> <!-- GitHub icon will be here -->
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/face.png">
+                <div class="layer">
+                    <h3>Face Recognition</h3>
+                    <p>Unlocks the lock or door on successful authentication.</p>
+                    <a href="https://github.com/Addy0007/Smart-Lock" target="_blank">
+                        <i class="fab fa-github"></i> <!-- GitHub icon will be here -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> adisah2003@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9548692418 </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100017398725932"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/addy__7__/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/adityasah0007/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Addy Thanks @Kenvin for reference </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbydGdDIAwAXg_Fzy6b6qmwh1DB2d-uoOiEPjrH-YaGUQpM3eA0wTsvRfPRixlol_Z2woA/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
